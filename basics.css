@@ -1,0 +1,189 @@
+body{
+	font-family: Poppins;
+	color: ghostwhite;
+	background-image: url();
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #FFE5C1;
+	animation: fadeIn 2s;
+
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+header{
+	color: #FFE5C1;
+	font-size: 10px;
+	text-align: left;
+	cursor: pointer
+
+
+}
+
+
+section{
+	overflow: hidden;
+	color: #02443F;
+	position: absolute;
+}
+
+.cat{
+	position: relative;
+/*	top: 0;
+	left: 0;*/
+	margin: 30px 0px 100px 260px;
+	color: red;
+	cursor: cell
+
+}
+
+	.image1{
+		transition: .5s;
+		z-index: 1;
+		overflow: hidden;
+	}
+section:hover{
+	 transform: scale(1.2); 
+	 transition: all .5s
+	}
+
+	.image2{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		transition: .5s;
+	}
+
+	.image2:hover{
+		opacity: 0;
+	}
+
+	.image3{
+		position: absolute;
+		top: 0px;
+		left: 505px;
+		z-index: 1;
+	}
+
+	.image4{
+		position: absolute;
+		top: 0px;
+		left: 505px;
+		z-index: 2;
+		transition: .5s;
+	}
+
+	.image4:hover{
+		opacity: 0;
+	}
+
+	.image5{
+		position: absolute;
+		top: 353px;
+		left: 0px;
+		z-index: 1;
+	}
+
+	.image6{
+		position: absolute;
+		top: 353px;
+		left: 0px;
+		z-index: 2;
+	}
+
+	.image6:hover{
+		opacity: 0;
+		transition: .5s;
+	}
+
+	.image7{
+		position: absolute;
+		top: 707px;
+		left: 0px;
+		z-index: 1;
+	}
+
+	.image8{
+		position: absolute;
+		top: 707px;
+		left: 0px;
+		z-index: 1;
+	}
+
+	.image8:hover{
+		opacity: 0;
+		transition: .5s;
+	}
+
+	.image9{
+		position: absolute;
+		top: 707px;
+		left: 338px;
+		z-index: 1;
+	}
+
+	.image10{
+		position: absolute;
+		top: 707px;
+		left: 338px;
+		z-index: 1;
+	}
+
+	.image10:hover{
+		opacity: 0;
+		transition: .5s;
+	}
+
+	.image11{
+		position: absolute;
+		top: 707px;
+		left: 677px;
+		z-index: 1;
+	}
+
+	.image12{
+		position: absolute;
+		top: 707px;
+		left: 677px;
+		z-index: 1;
+	}
+
+	.image12:hover{
+		opacity: 0;
+		transition: .5s;
+	}
+
+
+a{
+	font-size: 1em;
+	color: #02443F;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a:hover{
+	color: #EF5D40;
+}
+
+
+footer{
+	width: 100px;
+	/*font-size: 1em;
+	line-height: .5em;*/
+	/*background-color: #065693;*/
+	position: absolute;
+	top: 1030px;
+	left: 1400px;
+
+}
+
+
+
+
